@@ -42,6 +42,7 @@ Treehouse Styling
 body {
   margin: 0;
   font-family: Helvetica;
+  background-image: url(wall.jpg);
   /*background: url('2.JPG') top center no-repeat;
   background-size: auto;*/
 }
@@ -49,29 +50,27 @@ body {
 .header {
   padding: 20px 0;
   margin: 0 auto;
-  background-color: #343F64;
+  /*background-color: rgb(164,172,175);*/
   background-size: cover;
-  height: 50px;
+  height: 60px;
 }
 .LapName {
 	position: absolute;
-	top:30px;
+	top:25px;
 	left:115px;
-	color:rgb(210,211,213);
+	color:rgb(238,71,50);
 }
 
 .logo {
   background: transparent url('1.PNG') center center no-repeat;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
   background-size: cover;
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  /*padding: 20px 0;*/
-  margin: 0 10px;
-  position: absolute;
-  top:20px;
+  margin: 0 30px;
+  cursor: pointer;
 }
 .logo2 {
   background: transparent url('3.PNG') center center no-repeat;
@@ -94,7 +93,7 @@ body {
   white-space: nowrap;
   overflow: hidden;*/
   /*padding: 20px 0;*/
-  color:rgb(210,211,213);
+  color:black;
   margin: 0 10px;
   position: absolute;
   right:30px;
@@ -145,18 +144,18 @@ body {
 .slider-wrapper{
 	 padding:0;
 	 /*margin:20px 20%;*/
-	 width:1770px;
+	 width:1920px;
 	 height:550px;;
 	 position:relative;
 	 overflow: hidden;
  }
  
  .slider-wrapper img{
-	 width:1770px;
+	 width:1920px;
 	 height:500px;
 	 position:absolute;
 	 margin:0;
-	 left:1770px;
+	 left:1920px;
  }
 
 

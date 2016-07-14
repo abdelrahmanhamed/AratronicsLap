@@ -50,9 +50,9 @@ body {
 .header {
   padding: 20px 0;
   margin: 0 auto;
-  /*background-color: rgb(164,172,175);*/
+  background-color: rgba(0,0,0,0.25);
   background-size: cover;
-  height: 60px;
+  height: 40px;
 }
 .LapName {
 	position: absolute;
@@ -69,13 +69,13 @@ body {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  margin: 0 30px;
+  margin: -5px 30px;
   cursor: pointer;
 }
 .logo2 {
   background: transparent url('3.PNG') center center no-repeat;
-  width: 250px;
-  height: 200px;
+  width: 150px;
+  height: 100px;
   background-size: cover;
   text-indent: 100%;
   white-space: nowrap;
@@ -83,21 +83,16 @@ body {
   /*padding: 20px 0;*/
   margin: 0 10px;
   position: absolute;
-  right:-10px;
-  top:-50px;
+  right:10px;
+  top:-5px;
 }
 .logo3 {
- /* width: 250px;
-  height: 200px;*/
-  /*text-indent: 100%;
-  white-space: nowrap;
-  overflow: hidden;*/
-  /*padding: 20px 0;*/
+  font-size: 8.5px;
   color:black;
   margin: 0 10px;
   position: absolute;
   right:30px;
-  top:75px;
+  top:65px;
 }
 
 .nav {

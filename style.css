@@ -48,9 +48,10 @@ body {
 }
 
 .header {
+  position: relative;
   padding: 20px 0;
   margin: 0 auto;
-  background-color: rgba(0,0,0,0.25);
+  background-color: rgba(0,0,0,0.5);
   background-size: cover;
   height: 40px;
 }
@@ -60,7 +61,11 @@ body {
 	left:115px;
 	color:rgb(238,71,50);
 }
-
+.test {
+	color:rgb(88,88,88);
+	position: absolute;
+	top:-50px;
+}
 .logo {
   background: transparent url('1.PNG') center center no-repeat;
   width: 50px;
@@ -80,9 +85,9 @@ body {
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
+  float: right;
   /*padding: 20px 0;*/
-  margin: 0 10px;
-  position: absolute;
+  margin:-25px 20px;
   right:10px;
   top:-5px;
 }

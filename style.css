@@ -49,7 +49,7 @@ body {
 .header {
   padding: 20px 0;
   margin: 0 auto;
-  background-color: rgb(210,211,213);
+  background-color: #343F64;
   background-size: cover;
   height: 50px;
 }
@@ -57,7 +57,7 @@ body {
 	position: absolute;
 	top:30px;
 	left:115px;
-
+	color:rgb(210,211,213);
 }
 
 .logo {
@@ -72,6 +72,33 @@ body {
   margin: 0 10px;
   position: absolute;
   top:20px;
+}
+.logo2 {
+  background: transparent url('3.PNG') center center no-repeat;
+  width: 250px;
+  height: 200px;
+  background-size: cover;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  /*padding: 20px 0;*/
+  margin: 0 10px;
+  position: absolute;
+  right:-10px;
+  top:-50px;
+}
+.logo3 {
+ /* width: 250px;
+  height: 200px;*/
+  /*text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;*/
+  /*padding: 20px 0;*/
+  color:rgb(210,211,213);
+  margin: 0 10px;
+  position: absolute;
+  right:30px;
+  top:75px;
 }
 
 .nav {

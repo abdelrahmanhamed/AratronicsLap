@@ -1,5 +1,5 @@
 /******************************
-Flexbox Layout
+Layout
 *******************************/
 
 .header, .nav {
@@ -34,17 +34,10 @@ Flexbox Layout
   }
 }
 
-
-/******************************
-Treehouse Styling
-*******************************/
-
 body {
   margin: 0;
   font-family: Helvetica;
   background-image: url(wall.jpg);
-  /*background: url('2.JPG') top center no-repeat;
-  background-size: auto;*/
 }
 
 .header {
@@ -56,11 +49,32 @@ body {
   height: 25px;
   min-width: 1920px;
 }
-.imageHolder {
-	position: relative;
-	margin-top: 10px;
-	min-width: 1920px;
+.nav {
+  list-style: none;
+  margin-top: -10px;
 }
+
+.nav li {
+  margin: 12px 0 12px 28px;
+}
+
+.nav li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 12px;
+  transition: 200ms ease-in-out;
+  border-bottom: 1px solid transparent;
+}
+
+.nav li a:hover {
+  color: rgba(255,255,255,0.7);
+  transition: 200ms ease-in-out;
+  border-color: #fff;
+}
+
+/******************************
+Home Page
+*******************************/
 .welcomeImg {
 	
 	position: relative;
@@ -139,7 +153,6 @@ body {
   white-space: nowrap;
   overflow: hidden;
   float: right;
-  /*padding: 20px 0;*/
   margin:-35px 20px;
   right:10px;
   top:-5px;
@@ -152,26 +165,24 @@ body {
   right:27px;
   top:50px;
 }
-
-.nav {
-  list-style: none;
-  margin-top: -10px;
+/******************************
+About Us Page
+*******************************/
+.AboutCont {
+  font-size: 20px;
+  color:rgb(51,51,51);
+  word-wrap: break-word;
+  font: 14px/1.3 Arial,sans-serif;
+  margin: 0 auto;
+  text-align: left;
+  width: 1000px;
 }
-
-.nav li {
-  margin: 12px 0 12px 28px;
-}
-
-.nav li a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 12px;
-  transition: 200ms ease-in-out;
-  border-bottom: 1px solid transparent;
-}
-
-.nav li a:hover {
-  color: rgba(255,255,255,0.7);
-  transition: 200ms ease-in-out;
-  border-color: #fff;
+.AboutCont2 {
+  font-size: 10px;
+  color:rgb(51,51,51);
+  word-wrap: break-word;
+  font: 14px/1.3 Arial,sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  width: 1000px;
 }

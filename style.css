@@ -169,5 +169,8 @@ Home Page
 About Us Page
 *******************************/
 .AboutCont {
-  
+  color:rgb(51,51,51);
+  text-align: center;
+  /*width: 1000px;*/
+  word-wrap: break-word;
 }

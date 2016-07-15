@@ -50,8 +50,8 @@ body {
 .header {
   position: relative;
   padding: 20px 0;
-  margin: 0 auto;
-  background-color: rgba(0,0,0,0.5);
+  margin: 10px auto;
+  background-color: rgba(0,0,0,0.25);
   background-size: cover;
   height: 40px;
 }
@@ -62,9 +62,7 @@ body {
 	color:rgb(238,71,50);
 }
 .test {
-	color:rgb(88,88,88);
-	position: absolute;
-	top:-50px;
+	margin-top: 10px;
 }
 .logo {
   background: transparent url('1.PNG') center center no-repeat;
@@ -76,6 +74,24 @@ body {
   overflow: hidden;
   margin: -5px 30px;
   cursor: pointer;
+}
+.Biglogo {
+  position: absolute;
+  background: transparent url('1.PNG') center center no-repeat;
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 190px 200px;
+}
+.Biglogo2 {
+	color:red;
+  position: absolute;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 350px 700px;
 }
 .logo2 {
   background: transparent url('3.PNG') center center no-repeat;

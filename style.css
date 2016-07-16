@@ -37,7 +37,9 @@ Layout
 body {
   margin: 0;
   font-family: Helvetica;
-  background-image: url(wall.jpg);
+  background-image: url(wall.jpg) ;
+  background-size: cover;
+  /*overflow-y: scroll;*/
 }
 
 .header {
@@ -76,12 +78,10 @@ body {
 Home Page
 *******************************/
 .welcomeImg {
-	
 	position: relative;
 	min-width: 1920px;
 	-webkit-filter: brightness(50%);
 	filter: brightness(50%);
-	float: left;
 }
 .logo {
   background: transparent url('1.PNG') center center no-repeat;
@@ -103,7 +103,7 @@ Home Page
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
-  margin: 190px 200px;
+  margin: -600px 200px;
 }
 .Biglogo:hover~.Biglogo2 {
 	-webkit-transition: opacity 1s ease-in-out;
@@ -125,7 +125,7 @@ Home Page
   position: absolute;
   white-space: nowrap;
   overflow: hidden;
-  margin: 350px 700px;
+  margin: -420px 700px;
   -webkit-transition: opacity 2s ease-in-out;
   -moz-transition: opacity 2s ease-in-out;
   -ms-transition: opacity 2s ease-in-out;
@@ -141,7 +141,7 @@ Home Page
   opacity: 0;
   color:rgb(241,117,98);
   position: absolute;
-  margin: 250px 700px;
+  margin: -490px 700px;
   word-wrap: break-word;
 }
 .logo2 {

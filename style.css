@@ -75,12 +75,12 @@ body {
 }
 .facebook {
   background: url("imgs/fb.PNG") no-repeat center;
-  background-size: 40px;
+  background-size: 15px;
   background-color: #cccccc;
   padding: 10px;
   border-radius:50%;
-  width: 35px;
-  height: 35px;
+  width: 15px;
+  height: 15px;
   display: inline-block;
   /*margin: 0 10px;*/
   transition: 0.3s;
@@ -93,12 +93,12 @@ body {
 }
 .mail {
   background: url("imgs/mail.PNG") no-repeat center;
-  background-size: 40px;
+  background-size: 15px;
   background-color: #cccccc;
   padding: 10px;
   border-radius:50%;
-  width: 35px;
-  height: 35px;
+  width: 15px;
+  height: 15px;
   display: inline-block;
   /*margin: 0 10px;*/
   transition: 0.3s;
@@ -144,6 +144,7 @@ body {
 
 .section a{
   display: block;
+  font-size: 13px;
 }
 
 .legality{
@@ -160,11 +161,12 @@ body {
 
 .reasonable{
   font-family: Segoe UI;
-  font-size: 1.5em;
+  /*font-size: 1.5em;*/
 }
 .a-footer{
   color: #e5e5e5;
   text-decoration: none;
+  transition: 200ms ease-in-out;
 }
 .a-footer:hover {
   color: rgba(255,255,255,0.7);

@@ -39,7 +39,7 @@ body {
   font-family: Helvetica;
   background-image: url('imgs/wall.jpg') ;
   background-size: cover;
-  /*overflow-y: scroll;*/
+  overflow-x: hidden;
 }
 
 .header {
@@ -82,7 +82,6 @@ body {
   width: 15px;
   height: 15px;
   display: inline-block;
-  /*margin: 0 10px;*/
   transition: 0.3s;
 }
 
@@ -100,7 +99,6 @@ body {
   width: 15px;
   height: 15px;
   display: inline-block;
-  /*margin: 0 10px;*/
   transition: 0.3s;
 }
 
@@ -110,11 +108,8 @@ body {
   transform: scale(0.9);
 }
 .footer{
-  /*padding-top: 1%;*/
   background-color: rgb(97,95,95);
   width: 100%;
-  bottom: 0px;
-  position: absolute;
   bottom: 0;
   left: 0;
   right: 0;
@@ -122,7 +117,6 @@ body {
 
 .items{
   margin-left:750px;
-  /*width: 700px;*/
 }
 
 .section{
@@ -177,10 +171,10 @@ body {
 Home Page
 *******************************/
 .welcomeImg {
+  min-width: 1920px;
+  -webkit-filter: brightness(50%);
+  filter: brightness(50%);
 	position: relative;
-	min-width: 1920px;
-	-webkit-filter: brightness(50%);
-	filter: brightness(50%);
 }
 .logo {
   background: transparent url('imgs/1.PNG') center center no-repeat;
@@ -263,6 +257,93 @@ Home Page
   position: absolute;
   right:27px;
   top:50px;
+}
+.homeContent {
+  width: 400px;
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background: #fff url('imgs/rec.JPG') no-repeat center center;
+  background-size: cover;
+}
+
+.homeContent .shade {
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+}
+
+.homeContent p {
+  font-family: Georgia, serif;
+  font-size: 12px;
+  font-style: italic;
+  position: relative;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+}
+
+.homeContent a.info {
+  display: inline-block;
+  text-decoration: none;
+  padding: 7px 14px;
+  background: #000;
+  color: white;
+  text-transform: uppercase;
+  box-shadow: 0 0 1px #000;
+}
+
+.homeContent a.info:hover {
+  box-shadow: 0 0 5px #000;
+}
+
+.pics .shade {
+  background-color: rgba(0, 0, 0, 0.3);
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+.pics h2 {
+  border-bottom: 1px solid white;
+  background: transparent;
+  margin: 20px 40px 0px 40px;
+  transform: scale(0);
+  color: white;
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+.pics p {
+  color: white;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.5s linear;
+}
+
+.pics a.info {
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.5s linear;
+}
+
+.pics:hover .homeContent{
+  transform: scale(10);
+  opacity: 0;
+}
+
+.pics:hover .shade {
+  opacity: 1;
+}
+
+.pics:hover h2,
+.pics:hover p,
+.pics:hover a.info {
+  transform: scale(1);
+  opacity: 1;
 }
 /******************************
 About Us Page

@@ -264,8 +264,6 @@ Home Page
   overflow: hidden;
   position: relative;
   text-align: center;
-  background: #fff url('imgs/rec.JPG') no-repeat center center;
-  background-size: cover;
 }
 
 .homeContent .shade {
@@ -318,6 +316,7 @@ Home Page
 }
 
 .pics p {
+  margin-top: 20%;
   color: white;
   opacity: 0;
   transform: scale(0);

@@ -467,3 +467,36 @@ Contact Us Page
 .button .bottom {
   transform: rotateX(-90deg) translateY(25px) translateZ(25px);
 }
+/******************************
+FAQ Page
+*******************************/
+.box-container {
+  width: 1300px;
+  margin:0 auto;
+  position: absolute;
+  left:0;
+  right:0;
+  color:#000;
+  font-family: 'Nova Mono';
+}
+.box-left {
+  height:200px;
+  width: 450px;
+  display: block;
+  float:left;
+  margin-bottom:5px;
+}
+.box-right {
+  height:200px;
+  width: 450px;
+  display: block;
+  float:right;
+  z-index: 0; 
+  margin-bottom:5px;
+}
+.box-left-text {
+  height:200px;
+}
+.box-right-text {
+  height:200px;
+}

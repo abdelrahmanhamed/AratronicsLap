@@ -506,13 +506,13 @@ Reseaches Page
 
 #ShowRe {
   width:200px;
-  height:128px;
   position:relative;
   border-radius:50%;
   text-align:center;
   padding:72px 0 0 0;
   display:block;
   margin:auto;
+  margin-top: -50px;
 }
 .text_hover {
   font-family: 'Roboto Condensed', sans-serif;
@@ -535,7 +535,7 @@ Reseaches Page
   position:absolute;
   top:200px;
   left:97px;
-  background:#e67e22;
+  background:#A4ACAF;
   -webkit-animation: branch 1s;
   -webkit-animation-fill-mode: forwards;
 }
@@ -546,9 +546,9 @@ Reseaches Page
 .branch1 {
   width:5px;
   position:absolute;
-  top:210px;
+  top:200px;
   left:-550px;
-  background:#e67e22;
+  background:#A4ACAF;
   -webkit-animation: branch1 1s;
   -webkit-animation-fill-mode: forwards;
 }
@@ -559,9 +559,9 @@ Reseaches Page
 .branch2 {
   width:5px;
   position:absolute;
-  top:210px;
+  top:200px;
   left:750px;
-  background:#e67e22;
+  background:#A4ACAF;
   -webkit-animation: branch2 1s;
   -webkit-animation-fill-mode: forwards;
 }
@@ -571,8 +571,8 @@ Reseaches Page
 }
 .Dash1b {
   right:3px;
-  top:10px;
-  background:#e67e22;
+  /*top:10px;*/
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dash1b 1s;
   -webkit-animation-fill-mode: forwards;
@@ -584,8 +584,8 @@ Reseaches Page
 }
 .Dash1c {
   left:3px;
-  top:10px;
-  background:#e67e22;
+  /*top:10px;*/
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dash1c 1s;
   -webkit-animation-fill-mode: forwards;
@@ -596,7 +596,7 @@ Reseaches Page
 }
 .Dot1 { 
   border-radius:50%;
-  background:#e67e22;
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dot1 0.5s;
   -webkit-animation-fill-mode: forwards;
@@ -610,7 +610,7 @@ Reseaches Page
 .Dash1 {
   left:3px;
   top:70px;
-  background:#e67e22;
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dash1 0.5s;
   -webkit-animation-fill-mode: forwards;
@@ -625,7 +625,7 @@ Reseaches Page
   box-shadow: 0 0 5px #000;
   transition: all 0.5s linear;
   opacity:0;
-  background-color: #e67e22;
+  background-color: #A4ACAF;
   color:black;
   position:absolute;
   width:220px;
@@ -648,7 +648,7 @@ Reseaches Page
 }
 .Dot2 { 
   border-radius:50%;
-  background:#e67e22;
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dot2 0.5s;
   -webkit-animation-fill-mode: forwards;
@@ -662,7 +662,7 @@ Reseaches Page
 .Dash2 {
   right:3px;
   top:110px;
-  background:#e67e22;
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dash2 0.5s;
   -webkit-animation-fill-mode: forwards;
@@ -677,7 +677,7 @@ Reseaches Page
   box-shadow: 0 0 5px #000;
   transition: all 0.5s linear;
   opacity:0;
-  background-color: #e67e22;
+  background-color: #A4ACAF;
   color:black;
   position:absolute;
   width:220px;
@@ -700,7 +700,7 @@ Reseaches Page
 }
 .Dot3 { 
   border-radius:50%;
-  background:#e67e22;
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dot3 0.5s;
   -webkit-animation-fill-mode: forwards;
@@ -714,7 +714,7 @@ Reseaches Page
 .Dash3 {
   left:3px;
   top:160px;
-  background:#e67e22;
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dash3 0.5s;
   -webkit-animation-fill-mode: forwards;
@@ -729,7 +729,7 @@ Reseaches Page
   box-shadow: 0 0 5px #000;
   transition: all 0.5s linear;
   opacity:0;
-  background-color: #e67e22;
+  background-color: #A4ACAF;
   color:black;
   position:absolute;
   width:220px;
@@ -752,7 +752,7 @@ Reseaches Page
 }
 .Dot4 { 
   border-radius:50%;
-  background:#e67e22;
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dot4 0.5s;
   -webkit-animation-fill-mode: forwards;
@@ -766,7 +766,7 @@ Reseaches Page
 .Dash4 {
   right:3px;
   top:200px;
-  background:#e67e22;
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dash4 0.5s;
   -webkit-animation-fill-mode: forwards;
@@ -781,7 +781,7 @@ Reseaches Page
   box-shadow: 0 0 5px #000;
   transition: all 0.5s linear;
   opacity:0;
-  background-color: #e67e22;
+  background-color: #A4ACAF;
   color:black;
   position:absolute;
   width:220px;
@@ -805,7 +805,7 @@ Reseaches Page
 .Dot5 { 
 
   border-radius:50%;
-  background:#e67e22;
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dot5 0.5s;
   -webkit-animation-fill-mode: forwards;
@@ -819,7 +819,7 @@ Reseaches Page
 .Dash5 {
   left:3px;
   top:248px;
-  background:#e67e22;
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dash5 0.5s;
   -webkit-animation-fill-mode: forwards;
@@ -834,7 +834,7 @@ Reseaches Page
   box-shadow: 0 0 5px #000;
   transition: all 0.5s linear;
   opacity:0;
-  background-color: #e67e22;
+  background-color: #A4ACAF;
   color:black;
   position:absolute;
   width:220px;
@@ -858,7 +858,7 @@ Reseaches Page
 .Dot6 { 
 
   border-radius:50%;
-  background:#e67e22;
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dot6 0.5s;
   -webkit-animation-fill-mode: forwards;
@@ -872,7 +872,7 @@ Reseaches Page
 .Dash6 {
   right:3px;
   top:290px;
-  background:#e67e22;
+  background:#A4ACAF;
   position:absolute;
   -webkit-animation: dash6 0.5s;
   -webkit-animation-fill-mode: forwards;
@@ -887,7 +887,7 @@ Reseaches Page
   box-shadow: 0 0 5px #000;
   transition: all 0.5s linear;
   opacity:0;
-  background-color: #e67e22;
+  background-color: #A4ACAF;
   color:black;
   position:absolute;
   width:220px;
